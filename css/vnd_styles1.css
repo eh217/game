@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+body {
+    background-image: url(../png/vnd_opening.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-size: 28px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
