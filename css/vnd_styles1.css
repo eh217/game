@@ -1,11 +1,16 @@
 @charset "utf-8";
 
+@font-face {
+	font-family: Pixel;
+	src: url(../font/Pixel\ Digivolve.otf);
+}
+
 body {
     background-image: url(../png/vnd_opening.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    font-size: 28px;
+    font-size: 26px;
 }
 
 img {
@@ -14,3 +19,6 @@ img {
   width: 40%;
 }
 
+p {
+  font-family: Pixel;
+}

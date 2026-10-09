@@ -1,3 +1,10 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: Pixel;
+	src: url(../font/Pixel\ Digivolve.otf);
+}
+
 body {
     background-image: url(../png/vnd_caves.png);
     background-repeat: no-repeat;
@@ -12,3 +19,6 @@ img {
   width: 20%;
 }
 
+p {
+  font-family: Pixel;
+}

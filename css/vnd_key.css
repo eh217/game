@@ -1,3 +1,10 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: Pixel;
+	src: url(../font/Pixel\ Digivolve.otf);
+}
+
 body {
     background-image: url(../png/vnd_key.png);
     background-repeat: no-repeat;
@@ -9,4 +16,8 @@ body {
 img {
   display: block;
   width: 10%;
+}
+
+p {
+  font-family: Pixel;
 }
